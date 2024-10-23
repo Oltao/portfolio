@@ -9,7 +9,7 @@ const SwitchMode = ({ show }) => {
       const lastTheme = localStorage.getItem("theme");
       document.documentElement.classList.add(lastTheme);
     }
-  }, []);
+  }, [theme]);
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";

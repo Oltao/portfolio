@@ -7,7 +7,7 @@ const navbar = () => {
       <nav className="fixed left-0 top-50% h-[100%] lg:flex flex-col justify-center uppercase text-small hidden">
         <div className="w-1 h-[100px] bg-dark self-center absolute top-0 left-50% dark:bg-light"></div>
 
-        <ul className="flex flex-col gap-14  text-center">
+        <ul className="flex flex-col gap-14 text-center font-bold">
           <li className="-rotate-90">
             <NavLink to="/">About</NavLink>
           </li>
